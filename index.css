@@ -1,0 +1,111 @@
+:root{
+  --brightOrange: hsl(31, 77%, 52%);
+    --darkCyan: hsl(184, 100%, 22%);
+     --veryDarkcyan: hsl(179, 100%, 13%);
+    --neutralColor:hsla(0, 0%, 100%, 0.75);
+    --backgroundHeadingsButtons: hsl(0, 0%, 95%);
+    --fontSize: 15px
+    --font4:400;
+    --font7:700;
+    --fontBigShouldersDisplay: 700;
+    --fontFamily4:Lexend Deca;
+    --fontFamily7:Big Shoulders Display;
+}
+*,
+**::after,
+**::before{
+  margin:0;
+  padding:0;
+ box-sizing: border-box;
+}
+body{
+  
+  font-weight: var(--font4);
+  background: var(--backgroundHeadingsButtons);
+ 
+
+
+
+
+}
+#container {
+display: flex;
+  width: 930px;
+  height: auto;
+  background: var(--brightOrange);
+  overflow: hidden;
+  border-radius: 10px; position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+ 
+
+}
+#container img{
+float: left;
+padding:40px 0px 0px 50px;
+max-width: 100%;
+  
+}
+.one{
+  background: var(--brightOrange);
+}
+.two{
+  background:var(--darkCyan);
+}
+.three{
+  background: var(--veryDarkcyan);
+}
+#container h1{
+  text-align: left;
+  font-family:var(--fontFamily7) ;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 110px;
+  padding-left: 50px;
+  font-size: 30;
+  color: var(--backgroundHeadingsButtons);
+  
+}
+#container p{
+  color: var(--neutralColor);
+  font-size: 15px;
+  padding: 52px;
+  font-family: Lexend Deca;
+  line-height: 1.8em;
+  text-align: left;
+  margin-top: -40px;
+  margin-bottom: 35px;
+}
+#container a{
+  text-decoration: none;
+  font-family: var(--fontFamily4);
+  padding: 10px 20px;
+  color: var(--backgroundHeadingsButtons);
+  border-radius: 20px;
+  border: 3px solid white;
+  margin-left: 50px;
+  display: inline-block;
+  margin-bottom: 40px;
+
+
+}
+#container a:hover{
+  cursor: pointer;
+  color:var(--brightOrange);
+  background:var(--backgroundHeadingsButtons);
+  border-color: var(--backgroundHeadingsButtons);
+  transition: 0.5s;
+  
+}
+#container .two a:hover{
+  color:var(--darkCyan)
+}
+#container .three a:hover{
+  color: var(--veryDarkcyan);
+ 
+}
+
+
+

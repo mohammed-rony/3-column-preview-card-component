@@ -1,0 +1,13 @@
+@media only screen and (max-width:1080px){
+  #container{
+    width: 90%;
+    flex-direction: column;
+    height: auto;
+    
+    
+  }
+}
+.attribution{
+width: auto;
+height: auto;
+}
